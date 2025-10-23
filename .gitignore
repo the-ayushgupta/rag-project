@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+*.sqlite3
+
+# Virtual environment
+.venv/
+
+# VSCode
+.vscode/
+
+# Chroma persistence (optional)
+chroma_db/

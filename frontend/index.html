@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>PDF Q&A — Simple RAG</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>PDF Q&A (Offline)</h1>
+
+    <div class="upload">
+      <input id="pdfInput" type="file" accept="application/pdf" />
+      <button id="uploadBtn">Upload & Process PDF</button>
+      <div id="uploadStatus" class="status"></div>
+    </div>
+
+    <div class="query">
+      <input id="queryInput" type="text" placeholder="Ask a question about the PDF..." />
+      <button id="askBtn">Ask</button>
+      <div id="answerBox" class="answer"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
